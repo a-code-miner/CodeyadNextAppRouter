@@ -1,5 +1,21 @@
-'use client';
+// 'use client';
 import React from 'react';
+
+export const generateMetadata = ({params = {}, searchParams = {}}) => {
+	const carID = params.carID || "unknown"; // Provide a default value
+	return ({
+		title: `car number ${carID}`, // Safeguard against undefined
+	});
+};
+
+// export const generateMetadata = async ({params = {}, searchParams = {}}) => {
+// 	const response = await fetch("https://...");
+// 	const res = await response.json();
+// 	const title = res.data.title;
+// 	return ({
+// 		title
+// 	});
+// };
 
 function Page({params, searchParams}) {
 	console.log(params);
@@ -13,9 +29,7 @@ function Page({params, searchParams}) {
 							<div className="single-featured-cars">
 								<div className="featured-img-box">
 									<div className="featured-cars-img">
-										<img onClick={() => {
-											console.log(params)
-										}} src={`/assets/images/featured-cars/fc${params.carID}.png`} alt="cars"/>
+										<img src={`/assets/images/featured-cars/fc${params.carID}.png`} alt="cars"/>
 									</div>
 									<div className="featured-model-info">
 										<p>

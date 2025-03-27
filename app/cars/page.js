@@ -16,7 +16,7 @@ function Cars() {
 									<div className="row">
 										<div className="col-md-7 col-sm-12">
 											<div className="new-cars-img">
-												<img src="assets/images/new-cars-model/ncm1.png" alt="img"/>
+												<img src="/assets/images/new-cars-model/ncm1.png" alt="img"/>
 											</div>
 										</div>
 										<div className="col-md-5 col-sm-12">
@@ -48,7 +48,7 @@ function Cars() {
 									<div className="row">
 										<div className="col-md-7 col-sm-12">
 											<div className="new-cars-img">
-												<img src="assets/images/new-cars-model/ncm2.png" alt="img"/>
+												<img src="/assets/images/new-cars-model/ncm2.png" alt="img"/>
 											</div>
 										</div>
 										<div className="col-md-5 col-sm-12">
@@ -80,7 +80,7 @@ function Cars() {
 									<div className="row">
 										<div className="col-md-7 col-sm-12">
 											<div className="new-cars-img">
-												<img src="assets/images/new-cars-model/ncm3.png" alt="img"/>
+												<img src="/assets/images/new-cars-model/ncm3.png" alt="img"/>
 											</div>
 										</div>
 										<div className="col-md-5 col-sm-12">
