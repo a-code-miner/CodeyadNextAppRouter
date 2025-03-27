@@ -2,35 +2,6 @@ export default function Home() {
 	return (
 		<div>
 			<section id="home" className="welcome-hero">
-				<div className="top-area">
-					<div className="header-area">
-						<nav className="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"
-							 data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
-							<div className="container">
-								<div className="navbar-header">
-									<button type="button" className="navbar-toggle" data-toggle="collapse"
-											data-target="#navbar-menu">
-										<i className="fa fa-bars"></i>
-									</button>
-									<a className="navbar-brand" href="#">carvilla<span></span></a>
-								</div>
-								<div className="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-									<ul className="nav navbar-nav navbar-right" data-in="fadeInDown"
-										data-out="fadeOutUp">
-										<li className=" scroll active"><a href="#">home</a></li>
-										<li className="scroll"><a href="#">service</a></li>
-										<li className="scroll"><a href="#">featured cars</a></li>
-										<li className="scroll"><a href="#">new cars</a></li>
-										<li className="scroll"><a href="#">brands</a></li>
-										<li className="scroll"><a href="#">contact</a></li>
-									</ul>
-								</div>
-							</div>
-						</nav>
-					</div>
-					<div className="clearfix"></div>
-
-				</div>
 
 				<div className="container">
 					<div className="welcome-hero-txt">
@@ -127,8 +98,7 @@ export default function Home() {
 									</div>
 									<div className="col-md-2 col-sm-12">
 										<div className="single-model-search text-center">
-											<button className="welcome-btn model-search-btn"
-													onClick="window.location.href='#'">
+											<button className="welcome-btn model-search-btn">
 												search
 											</button>
 										</div>
