@@ -1,4 +1,6 @@
 import {Geist, Geist_Mono} from "next/font/google";
+import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -38,7 +40,18 @@ export default function RootLayout({children}) {
 			<link rel="stylesheet" href="/assets/css/responsive.css"/>
 		</head>
 		<body className={`${geistSans.variable} ${geistMono.variable}`}>
+		<Navbar/>
 		{children}
+		<Footer/>
+
+		<script src="/assets/js/jquery.min.js"></script>
+		<script src="/assets/js/popper.min.js"></script>
+		<script src="/assets/js/bootstrap.min.js"></script>
+		<script src="/assets/js/bootsnav.js"></script>
+		<script src="/assets/js/main.js"></script>
+		<script src="/assets/js/owl.carousel.min.js"></script>
+		<script src="/assets/js/wow.min.js"></script>
+		<script src="/assets/js/custom.js"></script>
 		</body>
 		</html>
 	);
