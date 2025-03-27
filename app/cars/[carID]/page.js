@@ -1,6 +1,8 @@
+'use client';
 import React from 'react';
 
 function Page({params, searchParams}) {
+	console.log(params);
 	return (
 		<section id="featured-cars" className="featured-cars">
 			<div className="container">
@@ -11,7 +13,9 @@ function Page({params, searchParams}) {
 							<div className="single-featured-cars">
 								<div className="featured-img-box">
 									<div className="featured-cars-img">
-										<img src={`/assets/images/featured-cars/fc${params.carID}.png`} alt="cars"/>
+										<img onClick={() => {
+											console.log(params)
+										}} src={`/assets/images/featured-cars/fc${params.carID}.png`} alt="cars"/>
 									</div>
 									<div className="featured-model-info">
 										<p>
