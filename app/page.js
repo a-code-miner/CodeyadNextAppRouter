@@ -98,9 +98,9 @@ export default function Home() {
 									</div>
 									<div className="col-md-2 col-sm-12">
 										<div className="single-model-search text-center">
-											<button className="welcome-btn model-search-btn">
-												search
-											</button>
+											{/*<button className="welcome-btn model-search-btn">*/}
+											{/*	search*/}
+											{/*</button>*/}
 										</div>
 									</div>
 								</div>
