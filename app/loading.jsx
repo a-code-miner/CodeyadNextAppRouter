@@ -9,7 +9,8 @@ function Loading(props) {
 				display: "flex",
 				justifyContent: 'center',
 				alignItems: 'center'
-			}}>Loading...</h1>
+			}}
+			>Loading...</h1>
 		</div>
 	);
 }
